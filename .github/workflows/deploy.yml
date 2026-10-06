@@ -39,7 +39,9 @@ jobs:
       - name: Build
         env:
           HUGO_ENVIRONMENT: production
-        run: hugo --minify --baseURL "${{ steps.pages.outputs.base_url }}/"
+          BASE_URL: ${{ steps.pages.outputs.base_url }}
+        # Pages reports http:// because HTTPS is terminated by Cloudflare, not enforced in Pages.
+        run: hugo --minify --baseURL "${BASE_URL/#http:/https:}/"
       - uses: actions/upload-pages-artifact@v3
         with:
           path: ./public
