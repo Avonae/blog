@@ -68,3 +68,7 @@ enableEmoji = true
       name = 'fragmentrefs'
       type = 'fragments'
       weight = 10
+
+# Keep the Jekyll feed path: /feed.xml and /ru/feed.xml.
+[outputFormats.rss]
+  baseName = "feed"
