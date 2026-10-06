@@ -1,8 +1,7 @@
 name: Notify Telegram about discussions
 
+# Only comments: giscus creates the discussion itself right before the first comment.
 on:
-  discussion:
-    types: [created]
   discussion_comment:
     types: [created]
 
@@ -16,13 +15,22 @@ jobs:
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
-          TITLE: ${{ github.event.discussion.title }}
-          AUTHOR: ${{ github.event.comment.user.login || github.event.discussion.user.login }}
-          BODY: ${{ github.event.comment.body || github.event.discussion.body }}
-          URL: ${{ github.event.comment.html_url || github.event.discussion.html_url }}
+          SLUG: ${{ github.event.discussion.title }}
+          DISCUSSION_BODY: ${{ github.event.discussion.body }}
+          BODY: ${{ github.event.comment.body }}
+          URL: ${{ github.event.comment.html_url }}
         run: |
-          text=$(printf '💬 %s\n%s:\n%s\n\n%s' "$TITLE" "$AUTHOR" "${BODY:0:500}" "$URL")
+          esc() { sed -e 's/&/\&amp;/g' -e 's/</\&lt;/g' -e 's/>/\&gt;/g'; }
+          # giscus titles the discussion with the translationKey; the post title is on the page itself.
+          page=$(grep -oE 'https?://[^ ]+' <<<"$DISCUSSION_BODY" | head -n1)
+          title=$(curl -fsSL --max-time 10 "$page" 2>/dev/null |
+            grep -oE '<meta property="?og:title"? content="[^"]*"' | head -n1 |
+            sed -E 's/.*content="([^"]*)"/\1/' |
+            python3 -c 'import html, sys; print(html.unescape(sys.stdin.read().strip()))') || true
+          title=${title:-$SLUG}
+          text=$(printf '<b>Новый комментарий в блоге %s</b>\n\n<blockquote>%s</blockquote>\n\n<a href="%s">Ссылка на комментарий</a>' \
+            "$(esc <<<"$title")" "$(esc <<<"${BODY:0:500}")" "$URL")
           jq -n --arg chat_id "$TELEGRAM_CHAT_ID" --arg text "$text" \
-            '{chat_id: $chat_id, text: $text, disable_web_page_preview: true}' |
+            '{chat_id: $chat_id, text: $text, parse_mode: "HTML", disable_web_page_preview: true}' |
           curl -fsS -X POST -H 'Content-Type: application/json' -d @- \
             "https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}/sendMessage" > /dev/null
