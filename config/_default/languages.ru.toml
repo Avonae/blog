@@ -1,0 +1,15 @@
+disabled = false
+locale = "ru"
+label = "Русский"
+weight = 2
+title = "Иван Филинков"
+contentDir = "content/ru"
+
+[params]
+  displayName = "RU"
+  isoCode = "ru"
+  rtl = false
+  dateFormat = "2 January 2006"
+
+[params.author]
+  name = "Иван Филинков"
