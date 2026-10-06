@@ -29,7 +29,7 @@ jobs:
             python3 -c 'import html, sys; print(html.unescape(sys.stdin.read().strip()))') || true
           post=$(esc <<<"${title:-$SLUG}")
           [ -n "$page" ] && post="<a href=\"$(esc <<<"$page")\">$post</a>"
-          text=$(printf 'Новый комментарий в блоге:\n\nПост: %s\n\n<blockquote>%s</blockquote>\n\n<a href="%s">Ссылка на комментарий</a>' \
+          text=$(printf 'Новый комментарий в блоге\n\nПост: %s\n\n<blockquote>%s</blockquote>\n\n<a href="%s">Ссылка на комментарий</a>' \
             "$post" "$(esc <<<"${BODY:0:500}")" "$URL")
           jq -n --arg chat_id "$TELEGRAM_CHAT_ID" --arg text "$text" \
             '{chat_id: $chat_id, text: $text, parse_mode: "HTML", disable_web_page_preview: true}' |
