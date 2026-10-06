@@ -28,7 +28,7 @@ jobs:
             sed -E 's/.*content="([^"]*)"/\1/' |
             python3 -c 'import html, sys; print(html.unescape(sys.stdin.read().strip()))') || true
           title=${title:-$SLUG}
-          text=$(printf '<b>Новый комментарий в блоге %s</b>\n\n<blockquote>%s</blockquote>\n\n<a href="%s">Ссылка на комментарий</a>' \
+          text=$(printf 'Новый комментарий в блоге\n\n<b>%s</b>\n\n<blockquote>%s</blockquote>\n\n<a href="%s">Ссылка на комментарий</a>' \
             "$(esc <<<"$title")" "$(esc <<<"${BODY:0:500}")" "$URL")
           jq -n --arg chat_id "$TELEGRAM_CHAT_ID" --arg text "$text" \
             '{chat_id: $chat_id, text: $text, parse_mode: "HTML", disable_web_page_preview: true}' |
