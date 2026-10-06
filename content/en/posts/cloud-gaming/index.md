@@ -152,4 +152,4 @@ Unlimited plans
 
 That's all. I'm waiting for Microsoft and Blizzard games to arrive on GFN, and in the meantime I use Playkey.
 
-If you want to support me, subscribe to my [Telegram channel](https://t.me/Press_Any) or sign up for Playkey with my [referral link](https://playkey.net/).
+If you want to support me, subscribe to my [Telegram channel](https://t.me/Press_Any).
