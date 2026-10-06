@@ -55,7 +55,7 @@ There are 5 cloud gaming providers in Russia right now: [playkey.net](http://pla
 
 ## Playkey.net
 
-The pioneers of cloud gaming in Russia. They've been around since 2013 and have survived many ups and downs. In 2021 they [were acquired by VK](https://vk.company/ru/investors/info/10904/). There are hourly and unlimited plans. Most Playkey servers [are in Moscow data centers](https://support.playkey.net/ru-RU/support/solutions/articles/13000013836-%D0%94%D0%B8%D0%B0%D0%B3%D0%BD%D0%BE%D1%81%D1%82%D0%B8%D0%BA%D0%B0-%D1%81%D0%BE%D0%B5%D0%B4%D0%B8%D0%BD%D0%B5%D0%BD%D0%B8%D1%8F-%D1%81-%D1%81%D0%B5%D1%80%D0%B2%D0%B5%D1%80%D0%BE%D0%BC#:~:text=%D0%91%D0%BE%D0%BB%D1%8C%D1%88%D0%B8%D0%BD%D1%81%D1%82%D0%B2%D0%BE%20%D1%81%D0%B5%D1%80%D0%B2%D0%B5%D1%80%D0%BE%D0%B2%20Playkey%20%D1%80%D0%B0%D1%81%D0%BF%D0%BE%D0%BB%D0%BE%D0%B6%D0%B5%D0%BD%D0%BE%20%D0%B2,%D0%9F%D0%B5%D1%82%D0%B5%D1%80%D0%B1%D1%83%D1%80%D0%B3%D0%B5%2C%20%D0%9D%D0%BE%D0%B2%D0%BE%D1%81%D0%B8%D0%B1%D0%B8%D1%80%D1%81%D0%BA%D0%B5%20%D0%B8%20%D0%B2%20%D0%A3%D0%BA%D1%80%D0%B0%D0%B8%D0%BD%D0%B5), but there are also some in Saint Petersburg, Novosibirsk and Ukraine.
+The pioneers of cloud gaming in Russia. They've been around since 2013 and have survived many ups and downs. In 2021 they [were acquired by VK](https://vk.company/ru/investors/info/10904/). There are hourly and unlimited plans. Most Playkey servers [are in Moscow data centers](https://playkey.net/), but there are also some in Saint Petersburg, Novosibirsk and Ukraine.
 
 I use Playkey to play [AAA games](https://en.wikipedia.org/wiki/AAA_(video_game_industry)) that aren't on GFN. I finished Death Stranding, RDR2, Horizon Zero Dawn and Stray on it, all on maximum graphics settings.
 
@@ -152,4 +152,4 @@ Unlimited plans
 
 That's all. I'm waiting for Microsoft and Blizzard games to arrive on GFN, and in the meantime I use Playkey.
 
-If you want to support me, subscribe to my [Telegram channel](https://t.me/Press_Any) or sign up for Playkey with my [referral link](https://welcome.playkey.net/ru/lp/referral?ref=4799973).
+If you want to support me, subscribe to my [Telegram channel](https://t.me/Press_Any) or sign up for Playkey with my [referral link](https://playkey.net/).
