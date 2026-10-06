@@ -2,7 +2,7 @@ disabled = false
 locale = "ru"
 label = "Русский"
 weight = 2
-title = "Иван Филинков"
+title = "Нажмите любую клавишу"
 contentDir = "content/ru"
 
 [params]
@@ -13,3 +13,10 @@ contentDir = "content/ru"
 
 [params.author]
   name = "Иван Филинков"
+  image = "img/avatar.jpg"
+  headline = "Технический писатель"
+  links = [
+    { github = "https://github.com/Avonae" },
+    { linkedin = "https://www.linkedin.com/in/filinkov-ivan" },
+    { telegram = "https://t.me/Press_Any" },
+  ]

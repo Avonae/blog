@@ -2,7 +2,7 @@ disabled = false
 locale = "en"
 label = "English"
 weight = 1
-title = "Ivan Filinkov"
+title = "Press any key"
 contentDir = "content/en"
 
 [params]
@@ -13,3 +13,10 @@ contentDir = "content/en"
 
 [params.author]
   name = "Ivan Filinkov"
+  image = "img/avatar.jpg"
+  headline = "Technical writer"
+  links = [
+    { github = "https://github.com/Avonae" },
+    { linkedin = "https://www.linkedin.com/in/filinkov-ivan" },
+    { telegram = "https://t.me/Press_Any" },
+  ]
