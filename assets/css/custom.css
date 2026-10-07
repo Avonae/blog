@@ -18,3 +18,12 @@ img.logo {
   max-width: 2.75rem;
   border-radius: 9999px;
 }
+
+/* Body text and header text are one and two pixels larger than the theme defaults. */
+.prose {
+  font-size: 17px;
+}
+
+header .text-sm {
+  font-size: 16px;
+}
