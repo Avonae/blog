@@ -28,3 +28,4 @@ EN is served from `/`, RU from `/ru/`.
 - CV data lives in `data/cv.yaml` and is rendered by a project template.
 - Content per language: `content/en/`, `content/ru/`. Translations share a `translationKey`.
 - MUST NOT replace or soften profanity or slang in post text.
+- Every image (PNG, JPEG, WebP) added to the repo MUST be compressed with the TinyPNG API before commit. The key is read from the `TINIFY_API_KEY` environment variable.
