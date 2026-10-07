@@ -27,3 +27,14 @@ img.logo {
 header .text-sm {
   font-size: 16px;
 }
+
+header a.text-base {
+  font-size: 18px;
+}
+
+/* On phones the site title gets truncated next to the menu, so only the avatar stays. */
+@media (max-width: 639px) {
+  header a.text-base {
+    display: none;
+  }
+}
