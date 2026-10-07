@@ -25,7 +25,6 @@ EN is served from `/`, RU from `/ru/`.
 
 ## Content
 
-- Posts are plain Markdown. MUST NOT use theme shortcodes, so the theme can be replaced.
 - CV data lives in `data/cv.yaml` and is rendered by a project template.
 - Content per language: `content/en/`, `content/ru/`. Translations share a `translationKey`.
 - MUST NOT replace or soften profanity or slang in post text.
