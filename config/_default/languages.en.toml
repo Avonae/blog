@@ -10,6 +10,7 @@ contentDir = "content/en"
   isoCode = "en"
   rtl = false
   dateFormat = "2 January 2006"
+  datePrefix = "Created:"
 
 [params.author]
   name = "Ivan Filinkov"
