@@ -1,5 +1,6 @@
 ---
 title: How to disable surveys from Claude
+description: 'How to disable the "How is Claude doing this session?" survey in Claude Code with CLAUDE_CODE_DISABLE_FEEDBACK_SURVEY, plus my full settings.json.'
 date: '2026-10-05'
 lastmod: '2026-10-05'
 tags:

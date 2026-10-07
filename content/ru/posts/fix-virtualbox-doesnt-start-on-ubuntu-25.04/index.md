@@ -1,5 +1,6 @@
 ---
 title: Virtualbox не запускается на Ubuntu 25.04
+description: 'VirtualBox не запускается на Ubuntu 25.04: с ядра 6.12 KVM включён по умолчанию. Решение — отключить KVM через GRUB.'
 date: '2025-11-23'
 lastmod: '2025-11-23'
 tags:

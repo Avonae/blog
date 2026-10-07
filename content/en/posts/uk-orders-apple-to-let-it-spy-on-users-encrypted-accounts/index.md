@@ -1,5 +1,6 @@
 ---
 title: UK demands Apple to let it spy on users' iCloud accounts
+description: 'The UK secretly demands that Apple build a backdoor into iCloud to access any user''s backups. How Advanced Data Protection fits in.'
 date: '2025-02-09'
 lastmod: '2025-02-09'
 tags:

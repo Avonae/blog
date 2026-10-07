@@ -1,5 +1,5 @@
 ---
-title: Синхронизация заметок Obsidian через Syncthing
+title: 'Синхронизация Obsidian через Syncthing: как настроить'
 description: 'Синхронизация Obsidian через Syncthing между телефоном и компьютером: без мердж-конфликтов, за 20 секунд, с бэкапом на GitHub.'
 date: '2025-05-11'
 lastmod: '2025-05-11'

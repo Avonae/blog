@@ -1,5 +1,6 @@
 ---
 title: Британия требует от apple внедрить бэкдор в iCloud
+description: 'Британия тайно требует от Apple встроить бэкдор в iCloud для доступа к бэкапам любого пользователя. При чём тут Advanced Data Protection.'
 date: '2025-02-09'
 lastmod: '2025-02-09'
 tags:

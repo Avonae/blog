@@ -1,5 +1,6 @@
 ---
 title: Thoughts about ChatGPT
+description: 'My experience with ChatGPT at work: a neural network is a tool, like an axe. Clients care about the result and the deadline, not who did the work.'
 date: '2024-10-18'
 lastmod: '2024-10-18'
 tags:

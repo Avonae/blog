@@ -1,5 +1,6 @@
 ---
 title: Some Extensions in Chrome Are No Longer Available
+description: 'Manifest V3 in Chrome and Brave breaks ad blockers like uBlock Origin. What changed and how to get your extensions working again.'
 date: '2024-10-22'
 lastmod: '2024-10-22'
 tags:

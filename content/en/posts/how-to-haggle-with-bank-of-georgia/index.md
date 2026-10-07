@@ -1,5 +1,6 @@
 ---
 title: How to raise currency rates in bank of georgia
+description: 'Bank of Georgia lets you negotiate the exchange rate in its app for amounts from 1000 GEL. How to request a better rate, and my results.'
 date: '2024-11-25'
 lastmod: '2024-11-25'
 tags:

@@ -1,5 +1,6 @@
 ---
 title: Why google search is getting worse
+description: 'Google search is getting worse: SEO spam and irrelevant sites fill the results. Why it happens and why people add "reddit" to queries.'
 date: '2024-05-08'
 lastmod: '2024-05-08'
 tags:

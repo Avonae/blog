@@ -1,5 +1,6 @@
 ---
 title: Sender pays or who is gonna pay for traffic
+description: 'Why Twitch left South Korea: the "sender pays" model makes content providers pay ISPs for traffic. What it means for net neutrality.'
 date: '2024-03-13'
 lastmod: '2024-03-13'
 tags:

@@ -1,5 +1,6 @@
 ---
 title: How to fix GRUB rescue without LiveCD
+description: 'Windows won''t boot after deleting a Linux partition and there is no USB drive? Fix GRUB rescue by booting over the network with PXE, TFTP and DHCP.'
 date: '2024-11-11'
 lastmod: '2024-11-11'
 tags:

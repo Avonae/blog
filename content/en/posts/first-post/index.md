@@ -1,5 +1,6 @@
 ---
 title: First post
+description: 'Why I started this blog: useful articles about IT and staying safe online, from 13 years in tech support, system administration and technical writing.'
 date: '2023-05-01'
 lastmod: '2023-05-01'
 tags:

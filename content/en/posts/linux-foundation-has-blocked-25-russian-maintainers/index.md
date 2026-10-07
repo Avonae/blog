@@ -1,5 +1,6 @@
 ---
 title: Linux Fountation has blocked 11 russian maintainers
+description: 'In October 2024 Greg Kroah-Hartman removed 11 Russian maintainers from the Linux kernel, citing sanctions. What happened and how Linus Torvalds responded.'
 date: '2024-10-24'
 lastmod: '2024-10-24'
 tags:

@@ -1,5 +1,6 @@
 ---
 title: Connecting Google Calendar with Telegram via Ai
+description: 'Toki is an AI assistant that connects Google Calendar to Telegram: create or cancel meetings by sending a message.'
 date: '2024-05-03'
 lastmod: '2024-05-03'
 tags:

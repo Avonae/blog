@@ -1,5 +1,6 @@
 ---
 title: Cloud gaming, or how to run Hogwarts on a Mac
+description: 'What cloud gaming is, its pros and cons, and a critical review of Playkey, GFN.ru and VK Play Cloud with prices.'
 date: '2023-05-16'
 lastmod: '2023-05-16'
 tags:

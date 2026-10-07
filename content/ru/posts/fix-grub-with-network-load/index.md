@@ -1,5 +1,6 @@
 ---
 title: Как починить GRUB rescue без LiveCD
+description: 'Винда не грузится после удаления раздела Linux, а флешки нет? Чиним GRUB rescue загрузкой по сети через PXE, TFTP и DHCP.'
 date: '2024-11-11'
 lastmod: '2024-11-11'
 tags:

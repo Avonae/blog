@@ -1,5 +1,6 @@
 ---
 title: Virtualbox doesn't work on Ubuntu 25.04
+description: 'VirtualBox doesn''t start on Ubuntu 25.04 because KVM is enabled by default since kernel 6.12. Fix it by disabling KVM in GRUB.'
 date: '2025-11-23'
 lastmod: '2025-11-23'
 tags:

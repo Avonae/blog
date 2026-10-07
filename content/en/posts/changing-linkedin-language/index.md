@@ -1,5 +1,6 @@
 ---
 title: How to Change Your Primary Language on Linkedin
+description: 'LinkedIn has no button to change your profile''s primary language. A step-by-step workaround to switch it, e.g. from Russian to English, without losing data.'
 date: '2023-05-25'
 lastmod: '2023-05-25'
 tags:

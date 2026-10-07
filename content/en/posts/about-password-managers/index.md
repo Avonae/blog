@@ -1,5 +1,6 @@
 ---
 title: A note about password managers
+description: 'KeePass, Bitwarden or 1Password? A comparison of the cloud and local password managers I have used, with the pros and cons of each.'
 date: '2024-05-02'
 lastmod: '2024-05-02'
 tags:

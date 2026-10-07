@@ -1,5 +1,6 @@
 ---
 title: Free python and data science courses
+description: 'Free IBM courses on Python, data science and Docker, with a certificate after the exam. List with duration and level.'
 date: '2023-11-15'
 lastmod: '2023-11-15'
 tags:

@@ -1,5 +1,6 @@
 ---
 title: Как отключить опросы в Claude Code
+description: 'Как отключить опросы «Как вам сегодня работа?» в Claude Code через CLAUDE_CODE_DISABLE_FEEDBACK_SURVEY. Мой settings.json с описанием параметров.'
 date: '2026-10-05'
 lastmod: '2026-10-05'
 tags:

@@ -1,5 +1,6 @@
 ---
 title: The history of one fail or Phishing — a Lesson Learned
+description: 'How I fell for a phishing email disguised as a DHL customs declaration, even though I always checked the sender. A lesson learned.'
 date: '2023-05-21'
 lastmod: '2023-05-21'
 tags:

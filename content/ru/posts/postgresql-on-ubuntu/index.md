@@ -1,5 +1,6 @@
 ---
 title: Установка PostgreSQL на Ubuntu
+description: 'Установка PostgreSQL на Ubuntu 20.04: apt install, создание базы данных и настройка удалённого подключения к серверу.'
 date: '2023-05-08'
 lastmod: '2023-05-08'
 tags:

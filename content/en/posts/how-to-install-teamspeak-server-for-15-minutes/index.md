@@ -1,5 +1,6 @@
 ---
 title: How to make your own Teamspeak server in 15 minutes
+description: 'Set up your own TeamSpeak server in 15 minutes with a one-command install script. A Discord alternative without a VPN and with better sound.'
 date: '2024-10-10'
 lastmod: '2024-10-10'
 tags:

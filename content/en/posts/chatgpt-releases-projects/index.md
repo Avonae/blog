@@ -1,5 +1,6 @@
 ---
 title: ChatGPT released projects, a convinient way to organize folders
+description: 'ChatGPT Projects are folders for chats with their own files and instructions. What they do and how they compare to Projects in Claude.'
 date: '2024-12-14'
 lastmod: '2024-12-14'
 tags:
