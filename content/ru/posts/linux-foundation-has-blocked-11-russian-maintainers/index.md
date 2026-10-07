@@ -27,4 +27,4 @@ aliases:
 Почитать комментарии к [новости на ycombinator.](https://news.ycombinator.com/item?id=41927838)
 Ссылка на сам [патч с удалением](https://lore.kernel.org/all/2024101835-tiptop-blip-09ed@gregkh/)
 
-![Скриншот удаленного разработчика](linux_block_maintainers.png)
+![Патч Грега Кроа-Хартмана на lore.kernel.org удаляет записи из MAINTAINERS](lore-kernel-maintainers-removal.png)

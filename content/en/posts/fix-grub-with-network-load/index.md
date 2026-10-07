@@ -10,7 +10,7 @@ It seems everyone has an old laptop that’s been downgraded to a movie-watching
 
 What to do? It seemed simple enough: grab a flash drive, boot up with a Live CD, and restore the MBR. But I didn't have a flash drive. Sure, I could borrow one, but I wanted to solve the problem right there and then. As I thought about it, I dug into the BIOS and found out that the laptop supported network booting via PXE…
 
-![Haha, funny meme](000.jpg)
+![Drake meme: no to Windows Live CD, yes to PXE Ubuntu](drake-meme-pxe-ubuntu.jpg)
 
 # The Dilemma
 
@@ -41,7 +41,7 @@ nmcli device status
 
 My Ethernet interface is called `enp0s31f6`.
 
-![My interface](00.png)
+![Network interfaces: Wi-Fi connected, Ethernet enp0s31f6 disconnected](network-interfaces.png)
 
 It needs an IP address. I used the `10.0.0.0` subnet to avoid conflicts with my home network. Replace the IP address and interface name in the command below with your own. This will create a new connection:
 
@@ -126,7 +126,7 @@ sudo systemctl restart isc-dhcp-server; sudo systemctl status isc-dhcp-server --
 
 If the service started successfully, the server is up and running.
 
-![DHCP server started successfully](01.png)
+![DHCP server started successfully](dhcp-server-started.png)
 
 That’s it for server setup. Now it’s time to boot over the network and install the system.
 
@@ -134,19 +134,19 @@ That’s it for server setup. Now it’s time to boot over the network and insta
 
 Power on the computer and set the network as the primary boot option. The computer gets an IP address, and the installation starts.
 
-![Computer got an IP address from the DHCP server](1.png)
+![Computer got an IP address from the DHCP server](pxe-client-got-ip.png)
 
 Keep clicking through until you get to the partitioning stage. Here, choose “Manual”. Be careful—an incorrect choice could wipe the entire disk.
 
-![Select manual disk setup](2.png)
+![Select manual disk setup](ubuntu-installer-manual-partitioning.png)
 
 Currently, Windows is taking up the entire disk. So, we need to shrink this partition and install Ubuntu on the freed space. I allocated 8 GB, though you could probably manage with less:
 
-![Select free space for installation](3.png)
+![Select free space for installation](ubuntu-installer-free-space.png)
 
 Open disk #1 and select `resize`. Specify the new size with `GB` and hit Continue. Then select the free space as the install location:
 
-![Final space allocation after resizing](4.png)
+![Final space allocation after resizing](disk-partitions-after-resize.png)
 
 Almost done. Just click through the rest of the installation—no extra packages needed. The installer will rewrite GRUB, and the system will boot properly again.
 

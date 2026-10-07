@@ -16,4 +16,4 @@ ChatGPT выпустили "[Проекты](https://help.openai.com/en/articles
 
 Проекты доступны сразу всем — и платным и бесплатным пользователям. Это мы используем!
 
-![My ChatGPT projects](projects-in-chatgpt.png)
+![Мои проекты в ChatGPT: Рецепты, Блог, Селфхостинг и другие](projects-in-chatgpt.png)

@@ -28,4 +28,4 @@ To me, this is complete crap. So much for open source. I get it, US sanctions an
 See the [post on ycombinator.](https://news.ycombinator.com/item?id=41927838)
 Link to the [patch with deletion](https://lore.kernel.org/all/2024101835-tiptop-blip-09ed@gregkh/)
 
-![Screenshot from linux lore](linux_block_maintainers.png)
+![Greg Kroah-Hartman's patch on lore.kernel.org removing entries from MAINTAINERS](lore-kernel-maintainers-removal.png)

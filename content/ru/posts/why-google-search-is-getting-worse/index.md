@@ -14,4 +14,4 @@ aliases:
 
 Я же пока не готов платить деньги за нормальный поиск, а duckduckgo мне не нравится. Поэтому буду пробовать сервисы вроде [perplexity.ai](https://www.perplexity.ai/) и [thebrowser.company](https://thebrowser.company/) в надежде найти что-то подходящее. 
 
-![Google search is full of shitty ads on the whole page](https://substackcdn.com/image/fetch/w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2eab9c7d-e736-499e-8c9f-c5ea27ec2e1f_1468x1828.png)
+![Твит: в выдаче Google весь экран занят рекламой (Google search is full of shitty ads on the whole page)](https://substackcdn.com/image/fetch/w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2eab9c7d-e736-499e-8c9f-c5ea27ec2e1f_1468x1828.png)

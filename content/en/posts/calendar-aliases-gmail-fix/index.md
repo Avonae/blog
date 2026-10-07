@@ -24,7 +24,7 @@ Keep in mind, that it won’t work for Google Workspace, only for personal accou
 
 My Cloudflare forwards all emails to my Gmail account and it has led to the problem when I tried to the alternate email. 
 
-![Gmail marked its own mail as spam](screen1.webp)
+![Gmail marked its own mail as spam](gmail-own-invite-spam.webp)
 
 Google rejected its own email as spam lol. So I changed the destination email in Cloudflare to another one and got a verification link from Gmail. I passed the verification and reverted the setting. 
 
@@ -34,7 +34,7 @@ Lastly, you should check a newly appeared setting in Google Calendar, that allow
 2. In the menu on the left under “Settings for my calendars,” click Other notifications.
 3. Check the box next to “Allow responding to invitations forwarded through alternative email addresses.”
 
-![Allow responding to invitations forwarded through alternative email addresses](screen2.webp)
+![Allow responding to invitations forwarded through alternative email addresses](gmail-alias-invitations-setting.webp)
 
 Aaaand that’s it! Everything works like a charm and you can accept invitations sent to your domain account directly in Gmail.
 

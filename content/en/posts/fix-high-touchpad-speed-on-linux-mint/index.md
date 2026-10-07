@@ -19,7 +19,7 @@ sudo xinput list
 ```
 
 You’ll see a list of all input devices — look for the touchpad. In my case, its ID was 9.
-![My device list](1.png)
+![xinput list output: ELAN06FA:00 touchpad with id=9](xinput-list-touchpad.png)
 Next, check the current scroll speed value. The smaller the number, the faster the touchpad scrolls:
 
 ```bash
@@ -99,6 +99,6 @@ xinput list-props 11 | grep "Scrolling Distance"
 
 It should now return the correct values — in my case, it’s ***350***.
 
-![New touchpad speed](2.png)
+![xinput list-props 9 output: Synaptics Scrolling Distance -350, 350](xinput-scrolling-distance.png)
 
 That's it — the device ID may change, but the scroll speed will stay just the way you like it.

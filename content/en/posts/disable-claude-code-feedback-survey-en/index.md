@@ -8,7 +8,7 @@ aliases:
 
 Marketing surveys and other junk annoy me, especially when someone tries to push useless stuff on me. Claude has quite a lot of this. But it turns out that when you use it in Cursor, the "How is Claude doing this session?" surveys can be disabled. In the Claude Code app you [can't turn them off](https://github.com/anthropics/claude-code/issues/94710).
 
-![Survey in Claude Code](claude_survey_disable.png)
+![Survey in Claude Code](claude-code-feedback-survey.png)
 
 Here is my whole `.claude/settings.json` config, with the parameters described below. Take only what you need:
 

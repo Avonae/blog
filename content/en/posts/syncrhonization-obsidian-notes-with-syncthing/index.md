@@ -27,4 +27,4 @@ In the end, I’ve got the same notes on my phone and computer, no merge conflic
 The sync speed is shockingly fast — changes show up on my phone in under 20 seconds. Highly recommended.
 
 
-![Syncthing main screen](syncthing_screen.png)
+![Syncthing main screen](syncthing-web-ui.png)

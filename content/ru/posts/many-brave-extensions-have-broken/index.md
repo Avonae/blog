@@ -16,10 +16,10 @@ aliases:
 
 Чтобы починить сломанные расширения, просто зайдите в раздел "Extensions" и последовательно нажмите кнопку "Repair" на каждом из них. Расширения при этом будут переустановлены.
 
-![Вот так выглядит сломанное расширение](Grammarly.png)
+![Вот так выглядит сломанное расширение](grammarly-broken-extension.png)
 
 Однако этот способ не помог мне с расширение Grammarly. Оказалось, что оно было просто удалено из магазина расширений. Никаких новостей на эту тему я не нашёл. Ждём обновлений по ситуации...
 
-![Почему-то расширение было вообще удалено из магазина Chrome](Grammarly2.png)
+![Почему-то расширение было вообще удалено из магазина Chrome](grammarly-removed-chrome-web-store.png)
 
 Ссылка на расширение: [https://chromewebstore.google.com/detail/grammarly-grammar-checker/](https://chromewebstore.google.com/detail/grammarly-grammar-checker/kbfnbcaeplbcioakkpcpgfkobkghlhen)

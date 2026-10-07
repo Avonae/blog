@@ -26,18 +26,18 @@ You can use the server for other tasks like VPN later.
 We’ll be using [Docker](https://en.wikipedia.org/wiki/Docker_(software)), to avoid cluttering up the system. After purchasing the VPS, you will receive the server’s IP address and login credentials.
 Open a terminal (not CMD, but a proper terminal).
 
-![Open windows terminal](image0.png)
+![Open Windows Terminal](windows-terminal-open.png)
 
 Enter the command `ssh username@IP_address_your_server`, for example:
 
 ```bash
 ssh alex@192.168.31.180
 ```
-![Connect to the server](image1.png)
+![Connect to the server](ssh-connect-server.png)
 
 Type `yes`, to accept the server’s certificate.
 
-![Accept the server's sertificate](image2.png)
+![Accept the server's certificate](ssh-accept-host-key.png)
 
 Enter the user password provided when you rented the VPS. Keep in mind that for security reasons, the entered characters won’t be displayed, so it’s easier to copy and paste it.
 
@@ -48,7 +48,7 @@ sudo bash -c "$(curl -L https://raw.githubusercontent.com/Avonae/TS-Docker-Insta
 ```
 The installation will take 5-10 minutes. Once completed, an admin token will appear on the screen, which we’ll need later.
 
-![The server is ready](image3.png)
+![The server is ready](teamspeak-server-ready.png)
 
 The server is ready, you can connect now.
 
@@ -57,19 +57,19 @@ Install the [Teamspeak Client](https://teamspeak.com/en/downloads/). I like the 
 
 To connect, enter the VPS IP address in the server address field. Leave the password field empty and set any nickname you like.
 
-![Enter the server address in Teamspeak Client](image4.png)
+![Enter the server address in Teamspeak Client](teamspeak-client-server-address.png)
 
 On your first connection, you’ll be asked for the admin token. Copy it from the console and press OK:
 
-![Enter the admin token](image5.png)
+![Enter the admin token](teamspeak-admin-token.png)
 
 Done! You are now the server admin.
 
-![Admin key applied succefully](image6.png)
+![Admin key applied successfully](teamspeak-admin-token-applied.png)
 
 Everything is set up, but I recommend changing the server password. To do this, right-click on the server and select "Edit Virtual Server," then set a password.
 
-![Change the server passowrd](image7.png)
+![Change the server password](teamspeak-change-server-password.png)
 
 I also suggest maxing out the sound quality. You can do this in the channel settings. Set it to 10 right away to feel the difference from Discord.
 
@@ -88,10 +88,10 @@ You can add a domain and connect to the server using a nice URL, install [Portai
 ## How do I delete the server?
 
 First, list the active containers with the command `docker ps`
-![Output of "docker ps" command](image8.png)
+![Output of "docker ps" command](docker-ps-output.png)
 
 Then remove the container with the command `docker rm -f container_ID`, in my case:
 
-![Deleted container](image9.png)
+![Deleted container](teamspeak-container-removed.png)
 
 The container will be stopped and deleted. You can reinstall the server with the same script.

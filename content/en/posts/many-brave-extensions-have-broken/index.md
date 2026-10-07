@@ -15,10 +15,10 @@ You can [read more about it the news](https://www.theverge.com/2024/10/15/242709
 
 To fix the broken extensions, just head over to the "Extensions" page and click the "Repair" button for each of them. The extensions will be reinstalled.
 
-![This is what broken extension looks like](Grammarly.png)
+![This is what broken extension looks like](grammarly-broken-extension.png)
 
 However, this fix didn't work for Grammarly. Turns out it was straight up removed from the extension store. I couldn’t find any news on why. So, I guess we’re just waiting for updates...
 
-![For some reason, the extension was completely removed frome Chrome Web Store](Grammarly2.png)
+![For some reason, the extension was completely removed from Chrome Web Store](grammarly-removed-chrome-web-store.png)
 
 Link to the extension: [https://chromewebstore.google.com/detail/grammarly-grammar-checker](https://chromewebstore.google.com/detail/grammarly-grammar-checker/kbfnbcaeplbcioakkpcpgfkobkghlhen)

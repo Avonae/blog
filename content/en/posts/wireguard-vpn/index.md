@@ -28,7 +28,7 @@ Let's rent a server. Pick any provider you like. If you have a foreign card, I c
 Renting a server from TimeWeb:
 1. Go to the website and sign up.
 2. In the left menu, choose **Cloud servers > Create > Marketplaces > VPN > Wireguard-GUI**.
-![I chose Poland](0.png)
+![Choosing the Wireguard-GUI template on Ubuntu 22.04 at the hosting provider](wireguard-gui-template.png)
 3. Choose a region.
 4. Turn off backups under **Additional services**.
 5. Pay. I paid for a month, **it came to 188 rubles**. By default, the card is saved for future payments. You can remove it in the Finance section.
@@ -37,15 +37,15 @@ Renting a server from TimeWeb:
 # Creating clients
 The server is set up. Now connect the clients: phones and computers. You can have as many as you want, traffic is unlimited. [Install Wireguard](https://www.wireguard.com/install/) on your devices.
 1. Follow the link in the email.
-![Email from the hosting provider](1.png)
+![Email from the hosting provider](hosting-provider-email.png)
 2. Log in with the password from the same email.
-![Login window](5.png)
+![Login window](wireguard-ui-login.png)
 3. Click **New Client** and enter any name. I use a **Country-Name-Device** scheme so I don't mix people up. As an example, let's create a phone config for my friend Alina: **Pol-Alina-Mobile**.
-![The new client in the web interface](6.png)
+![The new client in the web interface](wireguard-ui-new-client.png)
 4. Each config has a download button and a QR code. Click the QR code button and it appears on screen.
 5. Open Wireguard on your phone and tap the plus button.
 6. Scan the QR code from the web interface and voilà, you're done. Our VPN works. You can check it on any service like 2ip:
-![Left: activating the mobile app, right: a screenshot from 2ip.ru](9.png)
+![Left: activating the mobile app, right: a screenshot from 2ip.ru](wireguard-mobile-app-2ip.png)
 
 Create configs for all your devices the same way.
 
@@ -69,7 +69,7 @@ Ideally, though, turn off password authentication and keep only key authenticati
 11. Find the line `PasswordAuthentication Yes` and change `Yes` to `No`. Save the changes with Ctrl+X. TimeWeb servers have an extra file with this directive, so turn it off there too: `mv /etc/ssh/sshd_config.d/50-cloud-init.conf ~`
 12. Restart the SSH service: `systemctl restart ssh`
 13. Done, the server is secure now and password login won't work. The server is set up and ready.
-![Password login failed](7.png)
+![Password login failed](ssh-password-login-failed.png)
 
 ## Updates
 Automatic system updates (unattended upgrades) are on by default. You can check them with `systemctl status unattended-upgrades --no-pager -l`

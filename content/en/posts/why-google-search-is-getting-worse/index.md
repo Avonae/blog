@@ -16,4 +16,4 @@ As for me, I'm not ready to pay for a good search yet, and I don't like DuckDuck
 
 So, I'll be trying services like perplexity.ai and [thebrowser.company](http://thebrowser.company) in hopes of finding something suitable. What do you think? Did you notice the difference or just don’t care about it?
 
-![Google search got worse last past years](shitty-results.webp)
+![Tweet: Google results for "retool slack integration", the whole screen is ads](google-search-ads-whole-screen.webp)

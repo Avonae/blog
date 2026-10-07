@@ -10,7 +10,7 @@ translationKey: cloud-gaming
 
 What is cloud gaming and how is it different from regular gaming? Pros, cons and pricing: a critical review of 3 popular Russian services, with comments.
 
-![Flying a broom in Full HD](1.png)
+![Flying a broom in Full HD: Hogwarts Legacy, flying over Hogwarts](hogwarts-legacy-broom.png)
 
 It was the start of COVID. We couldn't go outside, and my girlfriend and I were bored. Death Stranding had just come out, and I really wanted to play it on my laptop. That's how I found out about cloud gaming. Install the client, pay for a plan, and the game starts. The screen turns into a carousel of lag and artifacts. It turned out that playing with my old router was impossible.
 
@@ -59,7 +59,7 @@ The pioneers of cloud gaming in Russia. They've been around since 2013 and have 
 
 I use Playkey to play [AAA games](https://en.wikipedia.org/wiki/AAA_(video_game_industry)) that aren't on GFN. I finished Death Stranding, RDR2, Horizon Zero Dawn and Stray on it, all on maximum graphics settings.
 
-![A cozy cutie heals a sick kitty's tummy](2.png)
+![A cozy cutie heals a sick kitty's tummy: Aloy finishing off a machine in Horizon Zero Dawn](horizon-zero-dawn-aloy.png)
 
 **Playkey prices**
 
@@ -93,7 +93,7 @@ The Russian version of Nvidia's cloud service, GeForce Now, created in 2015. The
 
 I use GFN for games that take a lot of time: Path of Exile, The Witcher 3, Cyberpunk 2077 and Deep Rock Galactic. The service doesn't have many AAA games, but the good news is that Nvidia has finally [reached a deal with publishers](https://warcraft.blizzplanet.com/blog/comments/microsoft-deal-allows-activision-blizzard-games-back-on-geforce-now), and games from Microsoft and Blizzard will appear on the service.
 
-![Wake the fuck up samurai!](3.jpg)
+![Cyberpunk 2077, V on a motorcycle in Night City. Wake the fuck up samurai!](cyberpunk-2077-motorcycle.jpg)
 
 **GFN prices**
 
@@ -121,7 +121,7 @@ A fairly young cloud gaming service built by VK on top of the VK Play platform. 
 
 The quality was good. I tried it a year ago, and it was worse back then. My latency was pretty low: the ping from Tbilisi was 40 ms. Overall not bad, it feels like Playkey, only more expensive. That first time, everything lagged terribly, but tech support said it was my problem. Meanwhile, Playkey worked fine on the same setup.
 
-![So nice](4.png)
+![So nice: red sky and the golden Erdtree in Elden Ring](elden-ring-erdtree.png)
 
 **VK Play Cloud prices**
 

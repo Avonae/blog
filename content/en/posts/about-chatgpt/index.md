@@ -16,4 +16,4 @@ For me, the main challenge is coming up with ways to apply neural networks. So e
 
 The picture from my friend—it's her cat in a Viking helmet.
 
-![Such a beauty](kotik.webp)
+![Such a beauty: a cat in a viking helmet licking its lips](cat-viking-helmet.webp)

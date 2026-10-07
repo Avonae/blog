@@ -19,7 +19,7 @@ sudo nano /etc/default/grub
 
 В строке `GRUB_CMDLINE_LINUX` добавьте `kvm.enable_virt_at_load=0`
 
-![fixing grub settings](kvm-ubuntu-25.04.png)
+![Параметр kvm.enable_virt_at_load=0 в GRUB_CMDLINE_LINUX](kvm-ubuntu-25.04.png)
 
 Сохраните изменения и дальше:
 
