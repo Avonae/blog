@@ -1,5 +1,6 @@
 ---
-title: A Free Alternative to TeamViewer and AnyDesk
+title: 'RustDesk: Free Open-Source Alternative to TeamViewer and AnyDesk'
+description: 'RustDesk is a free, open-source remote desktop app with no ads and an optional self-hosted server. Why I switched from TeamViewer and AnyDesk.'
 date: '2024-12-11'
 lastmod: '2024-12-11'
 tags:

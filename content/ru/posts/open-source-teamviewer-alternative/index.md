@@ -1,5 +1,6 @@
 ---
-title: Бесплатная альтернатива Teamviewer и Anydesk
+title: 'RustDesk — бесплатный аналог TeamViewer и AnyDesk'
+description: 'RustDesk — бесплатная альтернатива TeamViewer и AnyDesk с открытым кодом, без рекламы, работает в России. Можно поднять свой сервер.'
 date: '2024-12-11'
 lastmod: '2024-12-11'
 tags:

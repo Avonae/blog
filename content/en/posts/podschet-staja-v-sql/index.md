@@ -1,5 +1,6 @@
 ---
-title: Calculating Work Time in Confluence
+title: 'Calculating Employee Work Time with SQL in Confluence'
+description: 'A T-SQL query for Table Filter & Charts in Confluence that calculates years, months and days of employment from the hire date.'
 date: '2024-03-03'
 lastmod: '2024-03-03'
 tags:

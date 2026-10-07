@@ -1,5 +1,6 @@
 ---
-title: Fix Gmail alias doesn't work with calendar invitations
+title: 'Google Calendar Invites to a Gmail Alias: How to Fix'
+description: 'Accept Google Calendar invitations on your own domain address forwarded to Gmail: add an alternate email and enable the calendar setting.'
 date: '2024-06-04'
 lastmod: '2024-06-04'
 tags:

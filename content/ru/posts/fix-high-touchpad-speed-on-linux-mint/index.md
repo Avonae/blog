@@ -1,5 +1,6 @@
 ---
-title: Фикс большой скорости тачпада на Linux Mint и Ubuntu
+title: 'Как уменьшить скорость прокрутки тачпада в Linux Mint и Ubuntu'
+description: 'Тачпад в Linux Mint прокручивает слишком быстро? Меняем скорость через xinput и Synaptics Scrolling Distance.'
 date: '2025-08-03'
 lastmod: '2025-08-03'
 tags:

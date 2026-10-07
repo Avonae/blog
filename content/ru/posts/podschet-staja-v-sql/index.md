@@ -1,5 +1,6 @@
 ---
-title: Подсчет стажа в SQL
+title: 'Как рассчитать стаж сотрудника в SQL (Confluence)'
+description: 'SQL-запрос для Table Filter & Charts в Confluence: стаж в годах, месяцах и днях от даты приёма на работу. Почему DATEDIFF ошибается в месяцах.'
 date: '2024-03-03'
 lastmod: '2024-03-03'
 tags:

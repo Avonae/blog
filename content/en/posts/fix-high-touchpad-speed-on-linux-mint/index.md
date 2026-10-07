@@ -1,5 +1,6 @@
 ---
-title: How to fix fast touchpad scrolling in Linux Mint
+title: 'Linux Mint Touchpad Scroll Speed Too Fast? How to Fix It'
+description: 'Change touchpad scroll speed in Linux Mint with xinput and Synaptics Scrolling Distance.'
 date: '2025-08-03'
 lastmod: '2025-08-03'
 tags:

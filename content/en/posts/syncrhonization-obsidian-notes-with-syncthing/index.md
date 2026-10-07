@@ -1,5 +1,6 @@
 ---
-title: Synchronizing obsidian notes via syncthing
+title: 'How to Sync Obsidian Notes with Syncthing'
+description: 'Sync an Obsidian vault between phone and computer with Syncthing: no merge conflicts, changes in under 20 seconds, hourly backup to GitHub.'
 date: '2025-05-11'
 lastmod: '2025-05-11'
 tags:
@@ -29,7 +30,7 @@ Syncthing is an open-source synchronization tool. You install it on a device, sp
 
 Syncthing comes with a web interface, so the first thing you’ll want to do is hide it behind a VPN or secure it somehow. I used a [Cloudflare Zero Trust tunnel](https://developers.cloudflare.com/cloudflare-one/connections/connect-networks/#how-it-works) to protect it. After that, you just install Syncthing on your other devices and connect the folders you want to sync.
 
-As a bonus, I wanted some kind of backup (as if syncing across three devices wasn’t enough), so I made an automated GitHub push. With ChatGPT, [we created a script](https://github.com/Avonae/Scripts) that pushes changes to GitHub once an hour. For fun, I also set up [GPG commit signing](https://docs.github.com/en/authentication/managing-commit-signature-verification/generating-a-new-gpg-key#generating-a-gpg-key), so now my commits have that nice little Verified badge xD.
+As a bonus, I wanted some kind of backup (as if syncing across three devices wasn’t enough), so I made an automated GitHub push. With ChatGPT, [we created a script](https://github.com/Avonae/Scripts/tree/main/push-to-github) that pushes changes to GitHub once an hour. For fun, I also set up [GPG commit signing](https://docs.github.com/en/authentication/managing-commit-signature-verification/generating-a-new-gpg-key#generating-a-gpg-key), so now my commits have that nice little Verified badge xD.
 
 In the end, I’ve got the same notes on my phone and computer, no merge conflicts, hourly GitHub backup — and it all took maybe 4 hours to set up.  
 The sync speed is shockingly fast — changes show up on my phone in under 20 seconds. Highly recommended.
