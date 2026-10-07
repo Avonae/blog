@@ -7,3 +7,24 @@
   name = "Резюме"
   url = "https://filinkov.org/cv"
   weight = 20
+
+[[footer]]
+  identifier = "telegram"
+  pre = "telegram"
+  url = "https://t.me/Press_Any"
+  title = "Telegram"
+  weight = 10
+
+[[footer]]
+  identifier = "linkedin"
+  pre = "linkedin"
+  url = "https://www.linkedin.com/in/filinkov-ivan"
+  title = "LinkedIn"
+  weight = 20
+
+[[footer]]
+  identifier = "github"
+  pre = "github"
+  url = "https://github.com/Avonae"
+  title = "GitHub"
+  weight = 30
