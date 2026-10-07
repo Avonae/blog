@@ -7,7 +7,6 @@ EN is served from `/`, RU from `/ru/`.
 
 - Use Hugo extended 0.166.0, the same version as `.github/workflows/deploy.yml`.
 - The version MUST stay within `[module.hugoVersion]` in `themes/blowfish/config.toml`.
-- Locally it lives at `~/.local/bin/hugo`. Check with `hugo version` before building.
 
 ## Checks
 
