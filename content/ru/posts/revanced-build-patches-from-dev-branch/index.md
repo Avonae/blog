@@ -118,7 +118,7 @@ sdk.dir=C\:\\Users\\user\\Documents\\dependency
 
 ### Правка minSdk для Twitter
 
-В дев сборке сейчас (на 07.10.26) есть небольшая ошибка
+В дев сборке сейчас (на 07.10.26) есть небольшая ошибка: Call requires API level 33 (current min is 26): java.io.InputStream#readAllBytes [NewApi]
 
 ![Ошибка сборки патчей ReVanced: Call requires API level 33 в расширении Twitter](twitter-minsdk-error.png)
 
