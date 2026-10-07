@@ -1,0 +1,6 @@
+/* Show the code copy button without hover; touch devices have no hover state. */
+.copy-button {
+  visibility: visible;
+  width: auto;
+  padding-inline: 0.75rem;
+}
