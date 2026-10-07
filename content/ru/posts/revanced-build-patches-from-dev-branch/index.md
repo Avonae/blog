@@ -69,18 +69,12 @@ githubPackagesPassword=ghp_...
 
 {{< tabs group="os" default="macOS" >}}
 {{< tab label="Linux" >}}
-Путь к файлу: `~/.gradle/gradle.properties`. Закройте его от других пользователей:
+Путь к файлу: `~/.gradle/gradle.properties`. 
 
-```bash
-chmod 600 ~/.gradle/gradle.properties
-```
 {{< /tab >}}
 {{< tab label="macOS" >}}
-Путь к файлу: `~/.gradle/gradle.properties`. Закройте его от других пользователей:
+Путь к файлу: `~/.gradle/gradle.properties`. 
 
-```bash
-chmod 600 ~/.gradle/gradle.properties
-```
 {{< /tab >}}
 {{< tab label="Windows" >}}
 Путь к файлу: `C:\Users\<имя>\.gradle\gradle.properties`.
@@ -124,16 +118,11 @@ sdk.dir=C\:\\Users\\user\\Documents\\dependency
 
 ### Правка minSdk для Twitter
 
-В дев сборке сейчас (на 07.10.26) есть небольшая ошибка и сборка падает при компиляции, поэтому надо поправить 1 файл:
-
-```
-CustomNetworkInterceptorPatch.java:60: Error: Call requires API level 33 (current min is 26): java.io.InputStream#readAllBytes [NewApi]
-              byte[] rawBytes = responseStream.readAllBytes();
-```
+В дев сборке сейчас (на 07.10.26) есть небольшая ошибка
 
 ![Ошибка сборки патчей ReVanced: Call requires API level 33 в расширении Twitter](twitter-minsdk-error.png)
 
-Чтобы её исправить, в файле `extensions/twitter/build.gradle.kts` замените `minSdk = 26` на `minSdk = 33`.
+из-за которой сборка падает при компиляции. Чтобы её исправить, в файле `extensions/twitter/build.gradle.kts` замените `minSdk = 26` на `minSdk = 33`.
 
 ### Сборка
 
@@ -161,7 +150,7 @@ CustomNetworkInterceptorPatch.java:60: Error: Call requires API level 33 (curren
 
 ## Этап 2. Патчинг APK через ReVanced CLI в Termux
 
-Теперь из патчей собираем само приложение. Делать это будем прямо на телефоне.
+Теперь из патчей собираем само приложение. Делать это будем на телефоне.
 
 ### Подготовка
 
@@ -225,7 +214,7 @@ wget https://raw.githubusercontent.com/ReVanced/revanced-manager/refs/heads/main
 {{< /tab >}}
 {{< /tabs >}}
 
-### Патчинг
+### Патчим приложение
 
 ```bash
 java -jar $revanced/*.jar patch -bp $revanced/*.rvp --custom-aapt2-binary ./libaapt2.so $revanced/*.apk
