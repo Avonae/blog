@@ -1,6 +1,12 @@
 ---
 title: Нейросети — надо оно нам или нет?
 date: '2024-10-18'
+lastmod: '2024-10-18'
+tags:
+- ChatGPT
+- нейросети
+categories:
+- ИИ
 translationKey: about-chatgpt
 aliases:
 - /2024-10-18-About-chatgpt/

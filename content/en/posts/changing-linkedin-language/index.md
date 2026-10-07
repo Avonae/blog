@@ -1,10 +1,13 @@
 ---
 title: How to Change Your Primary Language on Linkedin
 date: '2023-05-25'
+lastmod: '2023-05-25'
 tags:
-- Linkedin
+- LinkedIn
 - job search
-- language
+- guide
+categories:
+- Life and Work
 translationKey: changing-linkedin-language
 aliases:
 - /2023-05-25-Changing-Linkedin-language/

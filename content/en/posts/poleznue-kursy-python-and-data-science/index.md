@@ -1,6 +1,13 @@
 ---
 title: Free python and data science courses
 date: '2023-11-15'
+lastmod: '2023-11-15'
+tags:
+- Python
+- data science
+- courses
+categories:
+- Life and Work
 translationKey: poleznue-kursy-python-and-data-science
 aliases:
 - /2023-11-15-Poleznue-kursy-python-and-data-science/

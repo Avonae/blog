@@ -1,6 +1,13 @@
 ---
 title: Linux Fountation заблокировала 11 русских разработчиков
 date: '2024-10-24'
+lastmod: '2024-10-24'
+tags:
+- Linux Foundation
+- open source
+- санкции
+categories:
+- Новости
 translationKey: linux-foundation-has-blocked-25-russian-maintainers
 aliases:
 - /2024-10-24-Linux-Foundation-Has-Blocked-11-Russian-Maintainers/

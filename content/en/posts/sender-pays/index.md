@@ -1,6 +1,13 @@
 ---
 title: Sender pays or who is gonna pay for traffic
 date: '2024-03-13'
+lastmod: '2024-03-13'
+tags:
+- net neutrality
+- Twitch
+- ISPs
+categories:
+- Internet
 translationKey: sender-pays
 aliases:
 - /2024-03-13-sender-pays/

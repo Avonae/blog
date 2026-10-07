@@ -1,6 +1,13 @@
 ---
 title: How to disable surveys from Claude
 date: '2026-10-05'
+lastmod: '2026-10-05'
+tags:
+- Claude
+- Claude Code
+- guide
+categories:
+- AI
 translationKey: disable-claude-code-feedback-survey-en
 aliases:
 - /2026-10-05-Disable-Claude-Code-feedback-survey-en/

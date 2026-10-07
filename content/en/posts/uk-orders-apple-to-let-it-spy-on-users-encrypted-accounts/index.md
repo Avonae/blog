@@ -1,6 +1,14 @@
 ---
 title: UK demands Apple to let it spy on users' iCloud accounts
 date: '2025-02-09'
+lastmod: '2025-02-09'
+tags:
+- Apple
+- iCloud
+- encryption
+- UK
+categories:
+- Security and Privacy
 translationKey: uk-orders-apple-to-let-it-spy-on-users-encrypted-accounts
 aliases:
 - /2025-02-09-UK-orders-Apple-to-let-it-spy-on-users-encrypted-accounts/

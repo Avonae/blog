@@ -1,6 +1,13 @@
 ---
 title: Как повысить обменный курс в Bank of Georgia
 date: '2024-11-25'
+lastmod: '2024-11-25'
+tags:
+- Грузия
+- банки
+- обмен валюты
+categories:
+- Жизнь и работа
 translationKey: how-to-haggle-with-bank-of-georgia
 aliases:
 - /2024-11-25-How-to-haggle-with-bank-of-georgia/

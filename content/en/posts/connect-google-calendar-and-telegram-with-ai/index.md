@@ -1,6 +1,13 @@
 ---
 title: Connecting Google Calendar with Telegram via Ai
 date: '2024-05-03'
+lastmod: '2024-05-03'
+tags:
+- Telegram
+- Google Calendar
+- automation
+categories:
+- AI
 translationKey: connect-google-calendar-and-telegram-with-ai
 aliases:
 - /2024-05-03-Connect-google-calendar-and-telegram-with-ai/

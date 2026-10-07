@@ -1,10 +1,12 @@
 ---
 title: A note about password managers
 date: '2024-05-02'
+lastmod: '2024-05-02'
 tags:
-- Passwords
+- passwords
 - password managers
-- information securty
+categories:
+- Security and Privacy
 translationKey: about-password-managers
 aliases:
 - /2024-05-02-About-password-managers/

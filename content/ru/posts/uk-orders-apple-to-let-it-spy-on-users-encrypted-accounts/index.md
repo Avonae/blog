@@ -1,6 +1,14 @@
 ---
 title: Британия требует от apple внедрить бэкдор в iCloud
 date: '2025-02-09'
+lastmod: '2025-02-09'
+tags:
+- Apple
+- iCloud
+- шифрование
+- Великобритания
+categories:
+- Безопасность и приватность
 translationKey: uk-orders-apple-to-let-it-spy-on-users-encrypted-accounts
 aliases:
 - /2025-02-09-UK-orders-Apple-to-let-it-spy-on-users-encrypted-accounts/

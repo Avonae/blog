@@ -1,6 +1,11 @@
 ---
 title: First post
 date: '2023-05-01'
+lastmod: '2023-05-01'
+tags:
+- blog
+categories:
+- Life and Work
 translationKey: first-post
 aliases:
 - /2023-05-01-First-post/

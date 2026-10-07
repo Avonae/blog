@@ -1,6 +1,13 @@
 ---
 title: Бесплатная альтернатива Teamviewer и Anydesk
 date: '2024-12-11'
+lastmod: '2024-12-11'
+tags:
+- RustDesk
+- open source
+- удалённый доступ
+categories:
+- Софт и сервисы
 translationKey: open-source-teamviewer-alternative
 aliases:
 - /2024-12-11-open-source-teamviewer-alternative/

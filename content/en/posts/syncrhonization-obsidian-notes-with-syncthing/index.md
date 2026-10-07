@@ -1,6 +1,14 @@
 ---
 title: Synchronizing obsidian notes via syncthing
 date: '2025-05-11'
+lastmod: '2025-05-11'
+tags:
+- Obsidian
+- Syncthing
+- notes
+- guide
+categories:
+- Self-hosting
 translationKey: syncrhonization-obsidian-notes-with-syncthing
 aliases:
 - /2025-05-11-Syncrhonization-obsidian-notes-with-syncthing/

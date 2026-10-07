@@ -1,6 +1,14 @@
 ---
 title: How to fix GRUB rescue without LiveCD
 date: '2024-11-11'
+lastmod: '2024-11-11'
+tags:
+- GRUB
+- Ubuntu
+- bootloader
+- guide
+categories:
+- Linux
 translationKey: fix-grub-with-network-load
 aliases:
 - /2024-11-11-Fix-GRUB-with-network-load/

@@ -1,10 +1,13 @@
 ---
 title: Как сменить основной язык в Linkedin
 date: '2023-05-25'
+lastmod: '2023-05-25'
 tags:
-- Linkedin
-- Поиск работы
-- языки
+- LinkedIn
+- поиск работы
+- инструкция
+categories:
+- Жизнь и работа
 translationKey: changing-linkedin-language
 aliases:
 - /2023-05-25-Changing-Linkedin-language/

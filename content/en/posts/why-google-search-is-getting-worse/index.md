@@ -1,6 +1,12 @@
 ---
 title: Why google search is getting worse
 date: '2024-05-08'
+lastmod: '2024-05-08'
+tags:
+- Google
+- search
+categories:
+- Internet
 translationKey: why-google-search-is-getting-worse
 aliases:
 - /2024-05-08-Why-google-search-is-getting-worse/

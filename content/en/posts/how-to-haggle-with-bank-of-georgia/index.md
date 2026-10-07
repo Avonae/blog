@@ -1,6 +1,13 @@
 ---
 title: How to raise currency rates in bank of georgia
 date: '2024-11-25'
+lastmod: '2024-11-25'
+tags:
+- Georgia
+- banks
+- currency exchange
+categories:
+- Life and Work
 translationKey: how-to-haggle-with-bank-of-georgia
 aliases:
 - /2024-11-25-How-to-haggle-with-bank-of-georgia/

@@ -1,6 +1,14 @@
 ---
 title: Часть расширений в хроме стала недоступна
 date: '2024-10-22'
+lastmod: '2024-10-22'
+tags:
+- Brave
+- Chrome
+- расширения браузера
+- Manifest V3
+categories:
+- Новости
 translationKey: many-brave-extensions-have-broken
 aliases:
 - /2024-10-22-many-brave-Extensions-have-broken/

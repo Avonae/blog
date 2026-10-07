@@ -1,6 +1,12 @@
 ---
 title: Calculating Work Time in Confluence
 date: '2024-03-03'
+lastmod: '2024-03-03'
+tags:
+- Confluence
+- SQL
+categories:
+- Software and Services
 translationKey: podschet-staja-v-sql
 aliases:
 - /2024-03-03-Podschet-staja-v-SQL/

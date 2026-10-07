@@ -1,6 +1,12 @@
 ---
 title: Почему гугл плохо ищет или раньше было лучше
 date: '2024-04-25'
+lastmod: '2024-04-25'
+tags:
+- Google
+- поиск
+categories:
+- Интернет
 translationKey: why-google-search-is-getting-worse
 aliases:
 - /2024-04-25-Why-google-search-is-getting-worse/

@@ -1,6 +1,14 @@
 ---
 title: Синхронизация заметок Obsidian через Syncthing
 date: '2025-05-11'
+lastmod: '2025-05-11'
+tags:
+- Obsidian
+- Syncthing
+- заметки
+- инструкция
+categories:
+- Свой сервер
 translationKey: syncrhonization-obsidian-notes-with-syncthing
 aliases:
 - /2025-05-11-Syncrhonization-obsidian-notes-with-syncthing/

@@ -1,12 +1,15 @@
 ---
 title: Релиз №1
 date: '2023-05-10'
+lastmod: '2023-05-10'
 description: Описание новых релизов мая 2023
 tags:
+- новые релизы
 - Nvidia
-- Midjorney
-- AI
-- Релиз
+- Midjourney
+- ИИ
+categories:
+- Новости
 translationKey: release-1
 aliases:
 - /2023-05-10-Release-1/

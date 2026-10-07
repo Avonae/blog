@@ -1,6 +1,13 @@
 ---
 title: Как отключить опросы в Claude Code
 date: '2026-10-05'
+lastmod: '2026-10-05'
+tags:
+- Claude
+- Claude Code
+- инструкция
+categories:
+- ИИ
 translationKey: disable-claude-code-feedback-survey-en
 aliases:
 - /2026-10-05-Disable-Claude-Code-feedback-survey/

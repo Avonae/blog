@@ -1,6 +1,13 @@
 ---
 title: Полезные курсы по питону и дата саенс
 date: '2023-11-15'
+lastmod: '2023-11-15'
+tags:
+- Python
+- data science
+- курсы
+categories:
+- Жизнь и работа
 translationKey: poleznue-kursy-python-and-data-science
 aliases:
 - /2023-11-15-Poleznue-kursy-python-and-data-science/

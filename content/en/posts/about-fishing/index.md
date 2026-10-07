@@ -1,10 +1,12 @@
 ---
 title: The history of one fail or Phishing — a Lesson Learned
 date: '2023-05-21'
+lastmod: '2023-05-21'
 tags:
-- fishing
-- information security
+- phishing
 - email
+categories:
+- Security and Privacy
 translationKey: about-fishing
 aliases:
 - /2023-05-21-About-fishing/

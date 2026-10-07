@@ -1,6 +1,13 @@
 ---
 title: How to fix fast touchpad scrolling in Linux Mint
 date: '2025-08-03'
+lastmod: '2025-08-03'
+tags:
+- Linux Mint
+- touchpad
+- guide
+categories:
+- Linux
 translationKey: fix-high-touchpad-speed-on-linux-mint
 aliases:
 - /2025-08-03-Fix-high-touchpad-speed-on-linux-mint/

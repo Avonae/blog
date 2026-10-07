@@ -1,6 +1,12 @@
 ---
 title: ChatGPT выпустил проекты для удобной организации папок
 date: '2024-12-14'
+lastmod: '2024-12-14'
+tags:
+- ChatGPT
+- OpenAI
+categories:
+- ИИ
 translationKey: chatgpt-releases-projects
 aliases:
 - /2024-12-14-Chatgpt-releases-projects/

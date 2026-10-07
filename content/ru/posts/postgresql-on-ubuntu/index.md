@@ -1,9 +1,13 @@
 ---
 title: Установка PostgreSQL на Ubuntu
 date: '2023-05-08'
+lastmod: '2023-05-08'
 tags:
-- postgresql
-- linux
+- PostgreSQL
+- Ubuntu
+- инструкция
+categories:
+- Linux
 translationKey: postgresql-on-ubuntu
 aliases:
 - /postgresq_on_ubuntu/

@@ -1,6 +1,14 @@
 ---
 title: Some Extensions in Chrome Are No Longer Available
 date: '2024-10-22'
+lastmod: '2024-10-22'
+tags:
+- Brave
+- Chrome
+- browser extensions
+- Manifest V3
+categories:
+- News
 translationKey: many-brave-extensions-have-broken
 aliases:
 - /2024-10-22-many-brave-Extensions-have-broken/

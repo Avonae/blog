@@ -1,9 +1,12 @@
 ---
 title: Сториз — теперь и в телеграме!
 date: '2023-06-28'
+lastmod: '2023-06-28'
 tags:
 - Telegram
 - Дуров
+categories:
+- Новости
 translationKey: telegram-stories-anounce
 aliases:
 - /2023-06-28-Telegram-Stories-Anounce/

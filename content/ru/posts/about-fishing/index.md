@@ -1,10 +1,12 @@
 ---
 title: Фишинг или история одного фейла
 date: '2023-05-21'
+lastmod: '2023-05-21'
 tags:
 - фишинг
-- информационная безопасность
 - email
+categories:
+- Безопасность и приватность
 translationKey: about-fishing
 aliases:
 - /2023-05-21-About-fishing/

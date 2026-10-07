@@ -1,10 +1,12 @@
 ---
 title: Cloud gaming, or how to run Hogwarts on a Mac
 date: '2023-05-16'
+lastmod: '2023-05-16'
 tags:
 - games
-- video games
-- gaming
+- cloud gaming
+categories:
+- Software and Services
 translationKey: cloud-gaming
 ---
 

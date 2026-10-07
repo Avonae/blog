@@ -1,6 +1,13 @@
 ---
 title: Дружим календарь с телеграмом через Toki
 date: '2024-05-02'
+lastmod: '2024-05-02'
+tags:
+- Telegram
+- Google Calendar
+- автоматизация
+categories:
+- ИИ
 translationKey: connect-google-calendar-and-telegram-with-ai
 aliases:
 - /2024-05-02-Connect-google-calendar-and-telegram-with-ai/

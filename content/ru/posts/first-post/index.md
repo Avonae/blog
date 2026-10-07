@@ -1,8 +1,11 @@
 ---
 title: Первый пост
 date: '2023-05-01'
+lastmod: '2023-05-01'
 tags:
-- Оффтоп
+- блог
+categories:
+- Жизнь и работа
 translationKey: first-post
 aliases:
 - /2023-05-01-First-post/

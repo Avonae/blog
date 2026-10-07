@@ -1,13 +1,15 @@
 ---
 title: Wireguard VPN with a web interface, no pain
 date: '2023-05-05'
+lastmod: '2023-05-05'
 description: How to set up your own VPN server and use the normal internet
 tags:
+- WireGuard
 - VPN
-- Censorship circumvention
-- Free internet
-- Guide
-- Linux
+- censorship circumvention
+- guide
+categories:
+- Self-hosting
 translationKey: wireguard-vpn
 ---
 

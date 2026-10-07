@@ -1,10 +1,12 @@
 ---
 title: О менеджерах паролей
 date: '2023-05-13'
+lastmod: '2023-05-13'
 tags:
-- Пароли
+- пароли
 - менеджеры паролей
-- безопасность
+categories:
+- Безопасность и приватность
 translationKey: about-password-managers
 aliases:
 - /2023-05-13-About-password-managers/

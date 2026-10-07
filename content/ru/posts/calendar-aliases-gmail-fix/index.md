@@ -1,6 +1,15 @@
 ---
 title: Чиним приглашения в календарь со своего домена в Gmail
 date: '2024-06-04'
+lastmod: '2024-06-04'
+tags:
+- Gmail
+- Google Calendar
+- Cloudflare
+- email
+- инструкция
+categories:
+- Софт и сервисы
 translationKey: calendar-aliases-gmail-fix
 ---
 

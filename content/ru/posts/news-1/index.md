@@ -1,14 +1,17 @@
 ---
 title: Новости №1
 date: '2023-05-08'
+lastmod: '2023-05-08'
 description: Что произошло интересного в начале мая 2023
 tags:
-- Игры
+- дайджест
+- игры
 - Dota 2
 - Slack
-- AI
-- Linkedin
-- Шонового
+- ИИ
+- LinkedIn
+categories:
+- Новости
 translationKey: news-1
 aliases:
 - /2023-05-08-News-1/

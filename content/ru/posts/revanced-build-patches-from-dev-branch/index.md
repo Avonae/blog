@@ -1,13 +1,16 @@
 ---
 title: 'Убираем рекламу в инстаграме на андроид в 2026'
 date: '2026-10-07'
+lastmod: '2026-10-07'
 description: Как собрать патчи для ReVanced из dev-ветки на Linux, macOS или Windows и пропатчить Instagram через ReVanced CLI в Termux прямо на телефоне без root.
 tags:
 - ReVanced
 - Android
 - Instagram
 - Termux
-- Мануал
+- инструкция
+categories:
+- Софт и сервисы
 translationKey: revanced-build-patches-from-dev-branch
 ---
 

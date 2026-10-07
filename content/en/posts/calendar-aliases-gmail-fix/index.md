@@ -1,6 +1,15 @@
 ---
 title: Fix Gmail alias doesn't work with calendar invitations
 date: '2024-06-04'
+lastmod: '2024-06-04'
+tags:
+- Gmail
+- Google Calendar
+- Cloudflare
+- email
+- guide
+categories:
+- Software and Services
 translationKey: calendar-aliases-gmail-fix
 aliases:
 - /2024-06-04-Calendar-aliases-gmail-fix/

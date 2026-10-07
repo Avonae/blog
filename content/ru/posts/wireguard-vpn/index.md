@@ -1,13 +1,15 @@
 ---
 title: Wireguard VPN с веб-интерфейсом без мучений
 date: '2023-05-05'
+lastmod: '2023-05-05'
 description: Как сделать себе VPN-сервер и сидеть в нормальном интернете
 tags:
+- WireGuard
 - VPN
-- Обход блокировок
-- Свободный интернет
-- Мануал
-- Linux
+- обход блокировок
+- инструкция
+categories:
+- Свой сервер
 translationKey: wireguard-vpn
 ---
 

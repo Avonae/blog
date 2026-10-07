@@ -1,6 +1,12 @@
 ---
 title: Thoughts about ChatGPT
 date: '2024-10-18'
+lastmod: '2024-10-18'
+tags:
+- ChatGPT
+- neural networks
+categories:
+- AI
 translationKey: about-chatgpt
 aliases:
 - /2024-10-18-About-chatgpt/

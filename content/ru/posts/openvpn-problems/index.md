@@ -1,10 +1,13 @@
 ---
 title: Блокировки OpenVPN в России 31.05.2023
 date: '2023-05-31'
+lastmod: '2023-05-31'
 tags:
-- Блокировки
+- OpenVPN
 - VPN
-- Обход блокировок
+- обход блокировок
+categories:
+- Интернет
 translationKey: openvpn-problems
 aliases:
 - /2023-05-31-OpenVPN-Problems/

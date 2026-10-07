@@ -1,6 +1,13 @@
 ---
 title: Как установить тимспик и снова играть с друзьями
 date: '2024-10-10'
+lastmod: '2024-10-10'
+tags:
+- TeamSpeak
+- Discord
+- инструкция
+categories:
+- Свой сервер
 translationKey: how-to-install-teamspeak-server-for-15-minutes
 aliases:
 - /2024-10-10-How-to-install-teamspeak-server-for-15-minutes/

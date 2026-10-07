@@ -1,6 +1,12 @@
 ---
 title: ChatGPT released projects, a convinient way to organize folders
 date: '2024-12-14'
+lastmod: '2024-12-14'
+tags:
+- ChatGPT
+- OpenAI
+categories:
+- AI
 translationKey: chatgpt-releases-projects
 aliases:
 - /2024-12-14-Chatgpt-releases-projects/

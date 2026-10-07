@@ -1,6 +1,13 @@
 ---
 title: Linux Fountation has blocked 11 russian maintainers
 date: '2024-10-24'
+lastmod: '2024-10-24'
+tags:
+- Linux Foundation
+- open source
+- sanctions
+categories:
+- News
 translationKey: linux-foundation-has-blocked-25-russian-maintainers
 aliases:
 - /2024-10-24-Linux-Foundation-Has-Blocked-25-Russian-Maintainers/

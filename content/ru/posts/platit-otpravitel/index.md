@@ -1,6 +1,13 @@
 ---
 title: Sender pays отправитель или кто должен платить за трафик
 date: '2024-03-13'
+lastmod: '2024-03-13'
+tags:
+- сетевой нейтралитет
+- Twitch
+- провайдеры
+categories:
+- Интернет
 translationKey: sender-pays
 aliases:
 - /2024-03-13-Platit-otpravitel/

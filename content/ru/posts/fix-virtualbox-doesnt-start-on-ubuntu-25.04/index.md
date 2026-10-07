@@ -1,6 +1,14 @@
 ---
 title: Virtualbox не запускается на Ubuntu 25.04
 date: '2025-11-23'
+lastmod: '2025-11-23'
+tags:
+- Ubuntu
+- VirtualBox
+- виртуализация
+- инструкция
+categories:
+- Linux
 translationKey: fixing-virtualbox-start-on-ubuntu-25.04
 aliases:
 - /2025-11-23-Fix-Virtualbox-doesnt-start-on-ubuntu-25.04/
