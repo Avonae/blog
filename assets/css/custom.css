@@ -2,5 +2,6 @@
 .copy-button {
   visibility: visible;
   width: auto;
-  padding-inline: 0.75rem;
+  padding: 0.4rem 0.5rem;
+  line-height: 0;
 }

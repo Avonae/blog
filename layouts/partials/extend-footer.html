@@ -5,3 +5,9 @@
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
 {{- end }}
+
+{{- /* Icons for the code copy button in assets/js/code.js (mdi:content-copy, mdi:check from Material Design Icons). */ -}}
+{{- if .Site.Params.enableCodeCopy }}
+<template id="copy-icon">{{ partial "icon.html" "mdi-content-copy" }}</template>
+<template id="copied-icon">{{ partial "icon.html" "mdi-check" }}</template>
+{{- end }}
