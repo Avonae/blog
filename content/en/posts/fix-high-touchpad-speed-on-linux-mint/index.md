@@ -2,7 +2,7 @@
 title: 'Linux Mint Touchpad Scroll Speed Too Fast? How to Fix It'
 description: 'Change touchpad scroll speed in Linux Mint with xinput and Synaptics Scrolling Distance.'
 date: '2025-08-03'
-lastmod: '2025-08-03'
+lastmod: '2026-10-08'
 tags:
 - Linux Mint
 - touchpad
@@ -14,11 +14,11 @@ aliases:
 - /2025-08-03-Fix-high-touchpad-speed-on-linux-mint/
 ---
 
-About three months ago, I finally switched to Linux Mint. Overall, everything was fine — but there was one annoying issue with the touchpad. It was way too fast.
+About three months ago, I finally switched to Linux Mint. Overall, everything was fine — but there was one annoying issue: the touchpad scroll speed was way too fast. Here's how I slowed down two-finger scrolling with `xinput` and made the setting survive a reboot.
 
 There are already [solutions described online](https://askubuntu.com/questions/1120045/touchpad-two-finger-scroll-too-fast#1132826), but none of them worked for me completely. So here’s what I ended up doing.
 
-## Adjusting Touchpad Speed
+## How to Change Touchpad Scroll Speed in Linux Mint
 
 First, find the ID of your touchpad:
 
@@ -27,7 +27,7 @@ sudo xinput list
 ```
 
 You’ll see a list of all input devices — look for the touchpad. In my case, its ID was 9.
-![xinput list output: ELAN06FA:00 touchpad with id=9](xinput-list-touchpad.png)
+![xinput list output in Linux Mint: ELAN06FA:00 touchpad with id=9](xinput-list-touchpad.png)
 Next, check the current scroll speed value. The smaller the number, the faster the touchpad scrolls:
 
 ```bash
@@ -46,12 +46,14 @@ The result consists of two numbers — in my case, ```-88``` and ```88```. You�
 xinput set-prop 11 "Synaptics Scrolling Distance" -500 500
 ```
 
+Replace `11` with your touchpad ID from `xinput list`.
+
 After that, test how the touchpad behaves. It should feel much better now.
 Play around with the numbers and choose the value that feels right to you.
 
 Just don’t forget to save it in a config file — otherwise, the setting will be lost after reboot.
 
-## Config changes
+## Make the Scroll Speed Permanent
 
 The touchpad config is stored in the folder ```/usr/share/X11/xorg.conf.d```
 Find the file responsible for it:
@@ -108,5 +110,9 @@ xinput list-props 11 | grep "Scrolling Distance"
 It should now return the correct values — in my case, it’s ***350***.
 
 ![xinput list-props 9 output: Synaptics Scrolling Distance -350, 350](xinput-scrolling-distance.png)
+
+## Does It Work on Ubuntu and Xfce?
+
+Yes, as long as you're in an X11 session — Linux Mint Cinnamon and Xfce (including Mint 22) use X11 by default. Ubuntu uses Wayland by default, and there `xinput` can't change the touchpad. Pick "Ubuntu on Xorg" on the login screen first.
 
 That's it — the device ID may change, but the scroll speed will stay just the way you like it.
