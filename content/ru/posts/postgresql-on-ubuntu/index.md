@@ -1,8 +1,8 @@
 ---
 title: Установка PostgreSQL на Ubuntu
-description: 'Установка PostgreSQL на Ubuntu 20.04: apt install, создание базы данных и настройка удалённого подключения к серверу.'
+description: 'Установка PostgreSQL на Ubuntu 22.04, 24.04 и 26.04: apt install, проверка службы, создание базы данных и пользователя, настройка удалённого подключения.'
 date: '2023-05-08'
-lastmod: '2023-05-08'
+lastmod: '2026-10-08'
 tags:
 - PostgreSQL
 - Ubuntu
@@ -17,6 +17,19 @@ aliases:
 В статье описана установка PostgreSQL 13 на Ubuntu 20.04, создание базы данных и настройка удаленного к ней подключения.
 Обратите внимание, если вы хотите установить актуальную версию, воспользуйтесь командой `apt install postgresql`
 
+## Быстрая установка из репозитория Ubuntu
+PostgreSQL есть в стандартном репозитории Ubuntu. Версия зависит от выпуска: в 22.04 — 14, в 24.04 — 16, в 26.04 — 18.
+```shell
+sudo apt update
+sudo apt install -y postgresql
+sudo systemctl status postgresql
+```
+Подключитесь к серверу от пользователя postgres:
+```shell
+sudo -u postgres psql
+```
+Если нужна другая версия, добавьте официальный репозиторий PostgreSQL, как описано ниже.
+
 Перед установкой обновите систему командой
 ```shell
 sudo apt update
@@ -27,9 +40,8 @@ sudo apt -y upgrade
 ## Добавление репозитория PostgreSQL 13 в Ubuntu
 Добавьте репозиторий PostgreSQL
 ```shell
-sudo apt -y install vim shell-completion wget net-tools
-wget --quiet -O - https://www.postgresql.org/media/keys/ACCC4CF8.asc | sudo apt-key add -
-echo "deb http://apt.postgresql.org/pub/repos/apt/  '`lsb_release -cs`-pgdg main" |sudo tee  /etc/apt/sources.list.d/pgdg.list
+sudo apt install -y postgresql-common
+sudo /usr/share/postgresql-common/pgdg/apt.postgresql.org.sh
 ```
 
 # Установка PostgreSQL 13
@@ -168,11 +180,12 @@ sudo systemctl restart postgresql
 ```
 Проверьте адрес прослушивания.
 ```shell
-netstat -tunelp | grep 5432
+sudo ss -tlnp | grep 5432
 ```
 В результате получите такой ответ:
 ```
-tcp 0  0 0.0.0.0:5432   0.0.0.0:*     LISTEN   123    4698674  -  tcp6  0   0 :::5432    :::*    LISTEN   123     4698675
+LISTEN 0      244          0.0.0.0:5432      0.0.0.0:*    users:(("postgres",pid=1234,fd=6))
+LISTEN 0      244             [::]:5432         [::]:*    users:(("postgres",pid=1234,fd=7))
 ```
 PostgreSQL настроен и готовк к подключению удаленных клиентов.
 
