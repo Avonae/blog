@@ -113,6 +113,6 @@ It should now return the correct values — in my case, it’s ***350***.
 
 ## Does It Work on Ubuntu and Xfce?
 
-Yes, as long as you're in an X11 session — Linux Mint Cinnamon and Xfce (including Mint 22) use X11 by default. Ubuntu uses Wayland by default, and there `xinput` can't change the touchpad. Pick "Ubuntu on Xorg" on the login screen first.
+Yes, as long as you're in an X11 session — Linux Mint Cinnamon and Xfce (including Mint 22) and Xubuntu use X11 by default. Standard Ubuntu is different: up to 25.04 you can pick "Ubuntu on Xorg" on the login screen, but since 25.10 it runs only on Wayland, where `xinput` can't change the touchpad.
 
 That's it — the device ID may change, but the scroll speed will stay just the way you like it.

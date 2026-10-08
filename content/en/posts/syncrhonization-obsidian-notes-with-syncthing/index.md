@@ -32,9 +32,9 @@ Syncthing comes with a web interface, so the first thing you’ll want to do is 
 
 ## How to Sync Obsidian with Syncthing
 
-1. Install Syncthing on your computer and phone. There's an Android app; for iPhone there's no official one, so people use the third-party Möbius Sync.
+1. Install Syncthing on your computer and phone. On Android, use Syncthing-Fork (the official app is no longer developed); for iPhone, there's the third-party Möbius Sync.
 2. On the computer, add your Obsidian vault folder as a Syncthing folder.
-3. Connect the devices: in the web UI, click "Add Remote Device" and paste the other device's ID. You'll find it on that device under Actions → Show ID.
+3. Connect the devices: in the web UI, click "Add Remote Device" and paste the other device's ID. You'll find it in that device's web UI under Actions → Show ID, or in the app menu on a phone.
 4. Share the vault folder with that device and accept the request on the phone.
 5. On the phone, open the synced folder in Obsidian as a vault.
 
