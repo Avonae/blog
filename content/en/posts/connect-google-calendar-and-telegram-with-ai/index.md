@@ -2,7 +2,7 @@
 title: Connecting Google Calendar with Telegram via Ai
 description: 'Toki is an AI assistant that connects Google Calendar to Telegram: create or cancel meetings by sending a message.'
 date: '2024-05-03'
-lastmod: '2024-05-03'
+lastmod: '2026-10-07'
 tags:
 - Telegram
 - Google Calendar
@@ -26,7 +26,7 @@ Most often, I use 3 services:
 
 The last 2 services are integrated, so tasks created in Todoist are synced with Google Calendar and vice versa. On my phone notifications are disabled for all apps except Google Calendar and Telegram, making it very convenient.
 
-I couldn't find a way to manage my calendar through Telegram, except for integrating Telegram with Todoist through IFTTT which I didn't like. Recently I have discovered a solution that I still use - [Toki](https://toki.com/).
+I couldn't find a way to manage my calendar through Telegram, except for integrating Telegram with Todoist through IFTTT which I didn't like. Recently I have discovered a solution that I still use: [Toki](https://toki.com/), called Dola.ai at the time.
 
 Toki is an AI-powered service that connects to the calendar and allows you to modify meetings via Telegram. If you write to Toki (which I picture as a female for some reason), saying "Tomorrow at 11:00 meeting with the client," it will automatically create the meeting in your Google Calendar. But what's even cooler is that you can also send voice messages to Toki and it will accurately transcribe them.
 
