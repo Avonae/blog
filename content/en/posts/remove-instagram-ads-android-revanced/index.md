@@ -4,7 +4,7 @@ date: '2026-10-07'
 lastmod: '2026-10-07'
 description: Instagram ad patch broken in the ReVanced release? Build ReVanced patches from the dev branch on Linux, macOS or Windows and patch Instagram in Termux, no root.
 tags:
-- ReVanced
+- Revanced
 - Android
 - Instagram
 - Termux

@@ -4,7 +4,7 @@ date: '2026-10-07'
 lastmod: '2026-10-10'
 description: Как собрать патчи для ReVanced из dev-ветки на Linux, macOS или Windows и пропатчить Instagram через ReVanced CLI в Termux прямо на телефоне без root.
 tags:
-- ReVanced
+- Revanced
 - Android
 - Instagram
 - Termux
@@ -278,7 +278,6 @@ mv *-patched.apk $revanced
 
 - Аккаунт на [гитхабе](https://github.com/) и Personal Access Token (PAT). Сделайте его [по ссылке](https://github.com/settings/tokens/new), scope укажите только `read:packages`
 - Приложение [терминала Termux](https://f-droid.org/en/packages/com.termux/), установленное через F-Droid.
-- APK приложения, которое хотите пропатчить. Для инстаграма нужна версия 425.0.0.47.61, [скачать ее можно с APK Mirror](https://www.apkmirror.com/apk/instagram/instagram-instagram/instagram-425-0-0-47-61-release/instagram-425-0-0-47-61-20-android-apk-download/) 
 
 ### 1. Установка скриптом
 
@@ -360,7 +359,7 @@ mv $BT/aidl $BT/aidl.x86 && ln -s $PREFIX/bin/aidl $BT/aidl
 Осталось пропатчить наш APK с помощью полученного `rvp` файла:  
 
 ```bash
-java -jar revanced-cli.jar patch -p patches.rvp \
+java -jar revanced-cli.jar patch -bp patches.rvp \
   --custom-aapt2-binary $PREFIX/bin/aapt2 app.apk
 ```
 
