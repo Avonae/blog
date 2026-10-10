@@ -178,7 +178,7 @@ Because of it, the build fails at compile time. To fix it, open `extensions/twit
 
 The result appears at `patches/build/libs/patches-<version>.rvp`. You don't need the file with the `-sources.rvp` suffix.
 
-## Stage 2. Patch the APK with ReVanced CLI in Termux
+## Stage 2. Patch the APK in Termux
 
 Now we build the app itself from the patches. We'll do it on the phone.
 
@@ -219,7 +219,7 @@ In the end, `/storage/emulated/0/Download/revanced/` should contain 3 files.
    pkg install wget openjdk-17 -y
    ```
 
-### Download aapt2
+### Download the Android aapt2 compiler
 
 ReVanced CLI needs `aapt2` built for your phone's CPU architecture. Check it with this command in Termux:
 
@@ -244,7 +244,7 @@ wget https://raw.githubusercontent.com/ReVanced/revanced-manager/refs/heads/main
 {{< /tab >}}
 {{< /tabs >}}
 
-### Patch the app
+### Patch the APK file
 
 ```bash
 java -jar $revanced/*.jar patch -bp $revanced/*.rvp --custom-aapt2-binary ./libaapt2.so $revanced/*.apk
@@ -256,7 +256,7 @@ The command creates a file with the `-patched` suffix. Move it to the `revanced`
 mv *-patched.apk $revanced
 ```
 
-### Install
+### Install the patched app
 
 The patched app is signed with a different key, so it usually won't install over the original. Uninstall the current app and install the `-patched.apk` from scratch.
 

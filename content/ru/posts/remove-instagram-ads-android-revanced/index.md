@@ -182,7 +182,7 @@ sdk.dir=C\:\\Users\\user\\Documents\\dependency
 
 Готовый файл появится здесь: `patches/build/libs/patches-<версия>.rvp`. Файл с суффиксом `-sources.rvp` нам не нужен.
 
-## Этап 2. Патчинг APK через ReVanced CLI в Termux
+## Этап 2. Патчим APK через Termux
 
 Теперь из патчей собираем само приложение. Делать это будем на телефоне.
 
@@ -223,7 +223,7 @@ sdk.dir=C\:\\Users\\user\\Documents\\dependency
    pkg install wget openjdk-17 -y
    ```
 
-### Загрузка aapt2
+### Загрузка компилятора андроид aapt2
 
 ReVanced CLI нужен `aapt2`, собранный под архитектуру процессора телефона. Узнайте её командой в Termux:
 
@@ -248,7 +248,7 @@ wget https://raw.githubusercontent.com/ReVanced/revanced-manager/refs/heads/main
 {{< /tab >}}
 {{< /tabs >}}
 
-### Патчим приложение
+### Патчим APK файл
 
 ```bash
 java -jar $revanced/*.jar patch -bp $revanced/*.rvp --custom-aapt2-binary ./libaapt2.so $revanced/*.apk
@@ -260,7 +260,7 @@ java -jar $revanced/*.jar patch -bp $revanced/*.rvp --custom-aapt2-binary ./liba
 mv *-patched.apk $revanced
 ```
 
-### Установка
+### Установка патченного приложения
 
 Пропатченное приложение подписано другим ключом, поэтому поверх оригинала оно обычно не ставится. Удалите установленное приложение и поставьте собранное приложение `-patched.apk` с нуля.
 
