@@ -38,3 +38,15 @@ header a.text-base {
     display: none;
   }
 }
+
+/* The scroll-to-top button is filled with the accent color so it stands out on the dark card background. */
+#scroll-to-top a {
+  background-color: rgba(var(--color-primary-600), 1);
+  color: #fff;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.35);
+}
+
+#scroll-to-top a:hover {
+  background-color: rgba(var(--color-primary-500), 1);
+  color: #fff;
+}
