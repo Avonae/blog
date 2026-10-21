@@ -9,7 +9,7 @@ tags:
 - обход блокировок
 - инструкция
 categories:
-- Свой сервер
+- Селфхостинг
 translationKey: wireguard-vpn
 ---
 

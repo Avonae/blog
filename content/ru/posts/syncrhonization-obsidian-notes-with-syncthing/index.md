@@ -9,7 +9,7 @@ tags:
 - заметки
 - инструкция
 categories:
-- Свой сервер
+- Селфхостинг
 translationKey: syncrhonization-obsidian-notes-with-syncthing
 aliases:
 - /2025-05-11-Syncrhonization-obsidian-notes-with-syncthing/
