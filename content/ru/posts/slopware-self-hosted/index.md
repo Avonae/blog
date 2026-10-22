@@ -3,7 +3,7 @@
 title: 'Slopware на GitHub: как узнать навайбкоженный софт'
 description: 'Как отличить slopware от нормального open source в селфхостинге: сравниваю темп коммитов Arcane, Cabinet, Portainer, Komodo и Dockge на GitHub.'
 date: '2026-10-21'
-lastmod: '2026-10-21'
+lastmod: '2026-10-22'
 tags:
 
 - open source

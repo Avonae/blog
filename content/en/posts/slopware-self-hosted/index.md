@@ -2,7 +2,7 @@
 title: 'Slopware on GitHub: how to spot vibe-coded software'
 description: 'How to tell slopware from real open source in self-hosting: comparing the commit pace of Arcane, Cabinet, Portainer, Komodo and Dockge on GitHub.'
 date: '2026-10-21'
-lastmod: '2026-10-21'
+lastmod: '2026-10-22'
 tags:
 - open source
 - AI
@@ -49,7 +49,11 @@ The table with links to the repos on GitHub:
 
 The very popular Portainer has been around since 2013, and it makes 38 commits a month. Arcane, in 1.5 years, makes 163, which is almost 5.4 commits a day with no days off! To me it is pretty obvious that both Arcane and Cabinet are written entirely by Claude Code. I'm not putting that on my server.
 
-All services in the table except Cabinet are for managing Docker. Cabinet is an "AI-first" knowledge base. I added it for illustration. I saw it on someone's dashboard and thought I'd give it a try, but quickly removed this shit. Broken buttons, a weird interface, constant errors... In short, AI slop.
+All services in the table except Cabinet are for managing Docker. Cabinet is an "AI-first" knowledge base. I added it for illustration. I saw it on someone's dashboard and thought I'd give it a try, but quickly removed this shit.
+
+![This tiny font you can't read... a typical example](cabinet-tiny-font.png)
+
+Broken buttons, a weird interface, constant errors... In short, AI slop.
 
 Funny, but my own vibe-coded service doesn't disgust me like that. But when you install someone else's... ugh.
 
