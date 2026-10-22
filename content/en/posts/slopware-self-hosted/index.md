@@ -60,3 +60,5 @@ Funny, but my own vibe-coded service doesn't disgust me like that. But when you 
 The number of stars surprises me too. Cabinet has 3k, Arcane has 8k. Do people not give a fuck? What are they looking at? The postmodern era...
 
 Stay tuned.
+
+![Meme: two men in a snowy forest. One says "No AI has been used for this project", the other asks "How can you tell?". The answer: "README is out of date, there is no documentation and it has 1207 TODO comments"](no-ai-readme-meme.webp)
