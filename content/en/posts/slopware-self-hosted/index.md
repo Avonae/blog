@@ -47,7 +47,7 @@ The table with links to the repos on GitHub:
 | [CapRover](https://github.com/caprover/caprover) | 10.2017 | 2065 | 1776 | 80 | ~19 | 15.1k |
 | [Dockge](https://github.com/louislam/dockge) | 10.2023 | 370 | 354 | 108 | ~12 | 24.1k |
 
-The very popular Portainer has been around since 2013, and it makes 38 commits a month. Arcane, in 1.5 years, makes 163, which is almost 5.4 commits a day with no days off! To me it is pretty obvious that both Arcane and Cabinet are written entirely by Claude Code. I'm not putting that on my server.
+The very popular Portainer has been around since 2013, and it makes 38 commits a month. Arcane, in 1.5 years, makes 163, which is almost 5.4 commits a day with no days off! To me it is pretty obvious that both Arcane and Cabinet are written entirely by Claude Code. I'm not putting that on my server. In the end I installed [What's Up Docker](https://github.com/getwud/wud) and connected it to Dynacat, and I have no regrets.
 
 All services in the table except Cabinet are for managing Docker. Cabinet is an "AI-first" knowledge base. I added it for illustration. I saw it on someone's dashboard and thought I'd give it a try, but quickly removed this shit.
 
